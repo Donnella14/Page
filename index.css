@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgba(221, 106, 29, 0.836);
+ }
+
+.back{
+    /*background-color: rgb(201, 148, 148);*/
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("Dragon-calendar-carousel.jpg");
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+}
+.row{
+    /*background-color: chartreuse;*/
+    display: flex;
+}
+.row img{
+    height: 15vh;
+}
+.row ul{
+    /*background-color: honeydew;*/
+    margin-left: 105vh;
+   
+    
+}
+.row ul li{
+    /*background-color: hotpink;*/
+    float: right;
+    padding: 5vh;
+    list-style: none;
+    font-size: 18px;
+
+    
+      
+}
+.row ul li a{
+    /*background-color: rgb(233, 223, 240);*/
+    text-decoration: none;
+    color: black;
+    padding: 2vh 1vh;
+    
+    
+
+}
+
+h1{
+   /*background-color: blue;*/
+   margin-top: 50vh;
+   padding-left: 110vh;
+   font-size: 7vh;
+}
+
+.btn{
+    margin-top: 2vh;
+    /*background-color: cornsilk;*/
+    padding-left: 115vh; 
+
+}
+.btno{
+    border: 1px solid rgb(241, 119, 4);
+    text-decoration: none;
+    color: black;
+    padding: 1vh 1vh;
+    font-size: 20px;
+   
+}
+.btnoo{
+    background-color: burlywood;
+}
+a:hover{
+    background-color: darkgoldenrod;
+
+}
+li a:hover{
+    background-color: darkgoldenrod;
+    
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: rgb(221, 106, 29);
+    width: 400px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.card-image{
+    background-color: rgba(63, 22, 3, 0.603);
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+
+
+}
+.pic1{
+    background-image: url("https://lh3.googleusercontent.com/proxy/3iFdse177XpJFwOoONTqwpAKBjGSSKAP1AYfpBNLNGK7Yf7qMiWzTjkFsfxkaKpQipMJAF89xHEDSjHSRCLLmbAVyMka7g");
+}
+.pic2{
+    background-image: url("https://image.shutterstock.com/image-illustration/scene-wizard-reaching-hand-out-260nw-1570031575.jpg");
+}
+.pic3{
+    background-image: url("https://jillsbooks.files.wordpress.com/2014/07/lindbergh-the-tale-of-a-flying-mouse-cover-image-torben-kuhlmann.jpg?w=500");
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px ;
+}
+.card a{
+    background-color: burlywood;
+    color: rgba(221, 106, 29, 0.836);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vh;
+}
+.card:hover{
+    background-color: rgb(255, 105, 5);
+    cursor: pointer;
+}
+
