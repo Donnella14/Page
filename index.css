@@ -4,14 +4,29 @@
 }
 body{
     background: rgba(221, 106, 29, 0.836);
+    
+   
  }
 
 .back{
     /*background-color: rgb(201, 148, 148);*/
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("Dragon-calendar-carousel.jpg");
-    background-size: contain;
+    /*background-size: contain;*/
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+   
+    
+    
+   
+
     height: 100vh;
     width: 100%;
+    /*background-repeat: no-repeat;*/
+
 }
 .row{
     /*background-color: chartreuse;*/
@@ -81,9 +96,9 @@ li a:hover{
 }
 
 .container{
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 .card{
     background: rgb(221, 106, 29);
@@ -101,7 +116,7 @@ li a:hover{
 
 }
 .pic1{
-    background-image: url("https://lh3.googleusercontent.com/proxy/3iFdse177XpJFwOoONTqwpAKBjGSSKAP1AYfpBNLNGK7Yf7qMiWzTjkFsfxkaKpQipMJAF89xHEDSjHSRCLLmbAVyMka7g");
+    background-image: url("https://lh3.googleusercontent.com/proxy/mBW3o5qVawrkufdYCMoM3If-eSgCqLwM50LKxKyoYh1Ss0dmBXxVlPOS8H5Vs03V1oD8014e6AbQV9aFKchT6-65_rdOC4iW1yob");
 }
 .pic2{
     background-image: url("https://image.shutterstock.com/image-illustration/scene-wizard-reaching-hand-out-260nw-1570031575.jpg");
@@ -127,5 +142,9 @@ li a:hover{
 .card:hover{
     background-color: rgb(255, 105, 5);
     cursor: pointer;
+}
+.el{
+    background-color: darkgoldenrod;
+
 }
 
